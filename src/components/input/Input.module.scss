@@ -1,0 +1,25 @@
+.input {
+  width: 1145px;
+  position: fixed;
+  bottom: 10%;
+  left: 24%;
+  margin: auto;
+  padding: 20px;
+  color: black;
+  background-color: WHITE;
+  padding: 16px;
+  outline: initial;
+  border: none;
+  border-bottom: solid 1px white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  &::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  &::-ms-input-placeholder {
+    /* Edge 12 -18 */
+    color: black;
+  }
+}

@@ -1,0 +1,22 @@
+.user {
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  transition: color 0.5s, background-color 0.5s;
+  border-radius: 5px;
+  color: black;
+  opacity: 0;
+  transform: translateX(-100px);
+  margin-top: 20px;
+
+  &__active {
+    color: black;
+    background-color: rgb(243, 243, 243);
+  }
+
+  &:hover {
+    color: black;
+    background-color: rgb(243, 243, 243);
+  }
+}
